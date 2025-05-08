@@ -4,6 +4,7 @@ if n > 0 and n <= 50:
     for i in range (n):
         nomes[i] = input('Insira um nome: ')
         
+        
         print('Ordem inversa')
         for i in range(len(nomes)-1, -1, -1):
             print(nomes[i])
